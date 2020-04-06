@@ -4,6 +4,19 @@ Basic dice roller to be used as a AWS Lambda Script.
 
 I use this as a [Slack command](https://api.slack.com/interactivity/slash-commands) `/gen` for a play-by-post game I run for some friends, but it's just an HTTP API that returns JSON.  Use it for your own entertainment.
 
+## Usage
+
+The API takes a string consisting of letter/number pairs such as `A3 D2` and translates those into Success, Failures, Advantates, Threats, and Triumph and Despair results.  The dice types are:	
+
+* A - Advantage
+* B - Boost
+* C - Challenge
+* D - Difficulty
+* P - Proficiency
+* S - Setback
+
+Each letter is followed by a single digit (1-9) for the number of dice to roll of that type.
+
 ## Deployment
 
 Just copy the script into the IDE of an AWS Lambda. 🙄
