@@ -34,6 +34,9 @@ The return value of the script is a Slack command specific JSON message that you
 /gen A2 C1 D3 S1 # Descending the spider webs with archers shooting at you and spiders bearing down
 ```
 
+*Better PRNG* - use a better random number generator than the one built into Python.  PCG perhaps?
+
 ## Credits
 
 This is largely based on the script at [Anydice](http://anydice.com/program/dd67) that implements the faces.  Author unknown.
+
