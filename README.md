@@ -40,3 +40,6 @@ The return value of the script is a Slack command specific JSON message that you
 
 This is largely based on the script at [Anydice](http://anydice.com/program/dd67) that implements the faces.  Author unknown.
 
+## License
+
+Unlicense.  See `LICENSE`.
